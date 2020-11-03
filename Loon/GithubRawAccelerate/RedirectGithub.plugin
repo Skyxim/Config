@@ -2,6 +2,6 @@
 ^https?://raw\.githubusercontennt\.com https://raw.staticdn.net 302
 
 [Remote Script]
-http-request ^https?://.*\.github.com/.*/raw/.* script-path=https://raw.staticdn.net/Skyxim/Config/main/RedirectGithub.js ,tag=RedirectRaw,enable=true
+http-request ^https?://.*\.github.com/.*/raw/.* script-path=https://raw.staticdn.net/Skyxim/Config/main/RedirectGithub.js ,tag=RedirectRaw
 [MITM]
 hostname=raw.githubusercontent.com,*.github.com
