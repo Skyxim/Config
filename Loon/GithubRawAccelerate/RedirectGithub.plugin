@@ -4,4 +4,4 @@
 [Remote Script]
 http-request ^https?://.*\.github.com/.*/raw/.* script-path=https://raw.staticdn.net/Skyxim/Config/main/RedirectGithub.js ,tag=RedirectRaw,enable=true
 [MITM]
-hostname=raw.githubusercontennt.com,*.github.com
+hostname=raw.githubusercontent.com,*.github.com
