@@ -1,7 +1,7 @@
 [Url Rewrite]
 ^https?://raw\.githubusercontent\.com/ https://raw.staticdn.net/ 302
 
-[Remote Script]
+[Remote Rewrite]
 http-request ^https?://.*\.github.com/.*/raw/.* script-path=https://raw.staticdn.net/Skyxim/Config/main/RedirectGithub.js, timeout=10, tag=RedirectGithub
 [MITM]
 hostname=raw.githubusercontent.com,github.com
