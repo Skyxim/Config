@@ -2,6 +2,6 @@
 ^https?://raw\.githubusercontent\.com/ https://raw.staticdn.net/ 302
 
 [Script]
-http-request ^https?://github\.com/.*/raw/.* script-path=https://github.com/Skyxim/Config/raw/main/Loon/GithubRawAccelerate/RedirectGithub.js, timeout=10, tag=RedirectGithub,enable=true
+http-request ^https?://github\.com/.*/raw/.* script-path=https://github.com/Skyxim/Config/raw/main/Loon/GithubRawAccelerate/RedirectGithub.js, timeout=10, tag=RedirectGithub,enabled=true
 [MITM]
 hostname=raw.githubusercontent.com,github.com
